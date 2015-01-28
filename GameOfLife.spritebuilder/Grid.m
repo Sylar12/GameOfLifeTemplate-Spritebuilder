@@ -183,13 +183,13 @@ static const int GRID_COLUMNS = 10;
                             currentCreature.livingNeighbors += 1;
                         }
                     }
-                    BOOL isAlive;
+                    
                     if (currentCreature.livingNeighbors == 3)
                     {
-                        isAlive = true;
+                        currentCreature.isAlive = TRUE;
                     } else if (currentCreature.livingNeighbors > 3 || currentCreature.livingNeighbors < 2)
                     {
-                        isAlive = false;
+                        currentCreature.isAlive = FALSE;
                     }
                 }
             }
