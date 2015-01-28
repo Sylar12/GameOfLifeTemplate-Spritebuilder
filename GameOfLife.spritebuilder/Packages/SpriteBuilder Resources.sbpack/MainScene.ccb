@@ -210,8 +210,6 @@
 						<string>Grid.ccb</string>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -354,7 +352,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string>_populationLabel </string>
+										<string></string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -374,8 +372,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>49.020664215087891</real>
-													<real>71.4632568359375</real>
+													<real>43.020664215087891</real>
+													<real>69.4632568359375</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -574,7 +572,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string>_generationLabel </string>
+										<string></string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -594,8 +592,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>157.53553771972656</real>
-													<real>-52.084407806396484</real>
+													<real>147.53553771972656</real>
+													<real>-55.084407806396484</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -781,6 +779,8 @@
 												</array>
 											</dict>
 										</array>
+										<key>selected</key>
+										<true/>
 									</dict>
 									<dict>
 										<key>UUID</key>
@@ -794,7 +794,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_populationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -814,7 +814,7 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>58.818675994873047</real>
+													<real>55.818675994873047</real>
 													<real>53.940082550048828</real>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -1025,7 +1025,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_generationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -1045,8 +1045,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>47.81378173828125</real>
-													<real>1.4037313461303711</real>
+													<real>45.81378173828125</real>
+													<real>2.4037308692932129</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
