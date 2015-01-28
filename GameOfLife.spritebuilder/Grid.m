@@ -186,13 +186,9 @@ static const int GRID_COLUMNS = 10;
                     }
                 }
             }
-            
-            if (currentCreature.isAlive) {
-                numAlive += 1;
-            }
         }
     }
-    _totalAlive = numAlive;
+    
     
     for (int i = 0; i < [_gridArray count]; i++)
     {
@@ -208,8 +204,12 @@ static const int GRID_COLUMNS = 10;
             {
                 currentCreature.isAlive = FALSE;
             }
+            if (currentCreature.isAlive) {
+                numAlive += 1;
+            }
         }
     }
+    _totalAlive = numAlive;
 }
 
 @end
