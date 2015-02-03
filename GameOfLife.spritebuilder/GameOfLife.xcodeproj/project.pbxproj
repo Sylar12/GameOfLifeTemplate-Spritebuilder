@@ -48,13 +48,6 @@
 			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
 			remoteInfo = cocos2dAndroid;
 		};
-		AF3078081A7837E500670969 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
-			remoteInfo = cocos2dJava;
-		};
 		AF30780A1A7837E500670969 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
@@ -152,6 +145,8 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				AF3078001A7837E400670969 /* Grid.m */,
+				AF3077FF1A7837E400670969 /* Grid.h */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
@@ -165,7 +160,6 @@
 			children = (
 				B737894B180761A90076A88C /* libcocos2d.a */,
 				AF3078071A7837E500670969 /* libcocos2dAndroid.a */,
-				AF3078091A7837E500670969 /* cocos2dJava.jar */,
 				AF30780B1A7837E500670969 /* libcocos2d-mac.a */,
 			);
 			name = Products;
@@ -195,8 +189,6 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
-				AF3077FF1A7837E400670969 /* Grid.h */,
-				AF3078001A7837E400670969 /* Grid.m */,
 				AF30780C1A78386F00670969 /* Creature.h */,
 				AF30780D1A78386F00670969 /* Creature.m */,
 				B737893C1807616C0076A88C /* Source */,
@@ -323,13 +315,6 @@
 			fileType = archive.ar;
 			path = libcocos2dAndroid.a;
 			remoteRef = AF3078061A7837E500670969 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AF3078091A7837E500670969 /* cocos2dJava.jar */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.jar;
-			path = cocos2dJava.jar;
-			remoteRef = AF3078081A7837E500670969 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		AF30780B1A7837E500670969 /* libcocos2d-mac.a */ = {
