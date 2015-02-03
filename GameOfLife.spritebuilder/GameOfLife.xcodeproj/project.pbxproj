@@ -145,6 +145,8 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				AF30780D1A78386F00670969 /* Creature.m */,
+				AF30780C1A78386F00670969 /* Creature.h */,
 				AF3078001A7837E400670969 /* Grid.m */,
 				AF3077FF1A7837E400670969 /* Grid.h */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
@@ -189,8 +191,6 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
-				AF30780C1A78386F00670969 /* Creature.h */,
-				AF30780D1A78386F00670969 /* Creature.m */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
